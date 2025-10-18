@@ -1,0 +1,16 @@
+{
+  "routes":[
+    {
+      "route": "/*",
+      "headers":{
+        "X-Frame-Options":"DENY",
+        "X-Content-Type-Options": "nosniff"
+        "Referrer-Policy":"strict-origin-when-croos-origin",
+        "Strict-Transport-Security": "max-age=6307200; incluideSubDomains;preload",
+        "Permissions-Policy": "geolocation=(), microphone=(),camera=()"
+      }
+    }
+  ]
+}
+     
+         
